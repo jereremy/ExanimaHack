@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source\Utilities">
+      <UniqueIdentifier>{4edf847b-ebc0-4dd5-bffc-f1b283485762}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\GameData">
+      <UniqueIdentifier>{93a02f14-c8c6-492d-956e-770fe3f6630e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\GameHooks">
+      <UniqueIdentifier>{50ee5820-b23f-498f-b45a-d3e187767e72}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="global.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="utils_memory.cpp">
+      <Filter>Source\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="utils_console.cpp">
+      <Filter>Source\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="utils_window.cpp">
+      <Filter>Source\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="WeaponHitEvent.cpp">
+      <Filter>Source\GameHooks</Filter>
+    </ClCompile>
+    <ClCompile Include="game_hooks.cpp">
+      <Filter>Source\GameHooks</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="utils_memory.h">
+      <Filter>Source\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="global.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="utils_console.h">
+      <Filter>Source\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="utils.h">
+      <Filter>Source\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="gd_weapon.h">
+      <Filter>Source\GameData</Filter>
+    </ClInclude>
+    <ClInclude Include="utils_vector.h">
+      <Filter>Source\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="gd_player.h">
+      <Filter>Source\GameData</Filter>
+    </ClInclude>
+    <ClInclude Include="game_data.h">
+      <Filter>Source\GameData</Filter>
+    </ClInclude>
+    <ClInclude Include="utils_window.h">
+      <Filter>Source\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="game_hooks.h">
+      <Filter>Source\GameHooks</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
